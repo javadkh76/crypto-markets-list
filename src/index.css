@@ -1,0 +1,8 @@
+*, ::before, ::after{
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif, Tahoma, "Times New Roman";
+  font-size: 14px;
+  margin: 0;
+}
