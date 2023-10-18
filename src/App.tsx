@@ -1,7 +1,12 @@
 import Layout from './components/Layout/Layout'
+import MarketsList from './components/MarketsList/MarketsList'
 
 function App() {
-  return <Layout>content</Layout>
+  return (
+    <Layout>
+      <MarketsList />
+    </Layout>
+  )
 }
 
 export default App

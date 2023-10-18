@@ -15,7 +15,7 @@ type Currency = {
   decimal_irt: number
   color: string
 }
-type PriceInfo = {
+export type PriceInfo = {
   created_at: number
   price: string
   change: number

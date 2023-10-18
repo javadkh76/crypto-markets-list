@@ -1,0 +1,8 @@
+.coinName{
+    display: flex;
+    align-items: center;
+}
+.coinIcon{
+    width: 40px;
+    margin-right: 10px;
+}
