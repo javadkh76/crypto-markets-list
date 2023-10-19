@@ -89,6 +89,7 @@ const MarketsList = () => {
         dataSource={markets}
         pagination={{ pageSize: 50 }}
         scroll={{ y: 540 }}
+        loading={status === 'loading' && action === 'getMarkets'}
       />
     </div>
   )
